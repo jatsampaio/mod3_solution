@@ -1,6 +1,17 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: lightblue;
   font-family: 'Oxygen', sans-serif;
+}
+
+li {
+  text-align: center;
+}
+
+#hide_yourself {
+  @media (min-width: 768px) {
+    display: none;
+}
+
 }
