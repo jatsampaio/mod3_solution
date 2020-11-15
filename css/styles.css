@@ -1,17 +1,47 @@
 body {
-  font-size: 16px;
-  color: #fff;
-  background-color: lightblue;
+#  font-size: 16px;
+  color: white;
+  background-color: white;
   font-family: 'Oxygen', sans-serif;
 }
 
-li {
-  text-align: center;
+#navbar-brand {
+  font-weight: bold;
 }
 
-#hide_yourself {
-  @media (min-width: 768px) {
-    display: none;
+#header-nav {
+  background-color: lightgray;
+  border-width: medium;
+  border-color: black;
 }
 
+#collapsable-nav, #main-content {
+  background-color: white;
 }
+
+#main-content {
+#  background-color: white;
+#}
+
+#home-tiles, .li-color {
+  background-color: white;
+  color: black;
+}
+
+#menu-tile {
+  background-color: white;
+}
+
+ .tetas {
+  background-color: lightgray;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-left: 15px;
+  margin-right:-12px;
+}
+
+.my-li {
+      list-style-position:inside;
+      border: 1px solid black;
+      width: 100%;
+  }
