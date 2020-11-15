@@ -40,8 +40,10 @@ body {
   margin-right:-12px;
 }
 
-.my-li {
-      list-style-position:inside;
-      border: 1px solid black;
-      width: 100%;
-  }
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  text-align: center;
+}
